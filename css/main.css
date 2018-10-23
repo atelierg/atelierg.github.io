@@ -28,13 +28,6 @@
 }
 
 
-body {
-            
-		    border-right: 12vw solid #353A40;
-            border-left: 12vw solid #353A40;
-
-            
-		}
 
 
 		
@@ -53,7 +46,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url(../bilder/trockenheithero.jpg);
+    background-image: url(../bilder/chri.JPG);
     background-size: cover;
 }
 

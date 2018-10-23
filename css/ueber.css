@@ -28,13 +28,7 @@
 	height: 100%;
 }
 
-		body {
-            
-		    border-left: 12vw solid #353A40;
-		    border-right: 12vw solid #353A40;
-
-            
-		}
+		
 
 
 
@@ -45,12 +39,12 @@
 
 
 .trocktry {
-    background-image: url(../bilder/trockenheithero.jpg);
+    background-image: url(../bilder/waldschm.png);
     
 }
 
 .jumbotron {
-    background-image: url(../bilder/wald.jpg);
+    background-image: url(../bilder/waldschm.png);
     background-size: cover;
 }
 
