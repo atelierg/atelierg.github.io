@@ -1,8 +1,6 @@
 
 
-.jumbotron {
-    background-image: url(../bilder/_wald-panorama-mit-sonnenstrahlen_14137907_high.jpg);
-    background-size: cover;
+
     
     
 }
@@ -50,3 +48,17 @@
 }
 
 
+
+.trocktry {
+    background-image: url(../bilder/trockenheithero.jpg);
+    
+}
+
+.jumbotron {
+    background-image: url(../bilder/_wald-panorama-mit-sonnenstrahlen_14137907_high.jpg);
+    background-size: cover;
+}
+
+.yttrytryt {
+    background-image: url(../bilder/trockenheithero.jpg)
+}
