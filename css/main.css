@@ -27,13 +27,17 @@
 	height: 100%;
 }
 
-		body {
+
+body {
             
-		    border-left: 12vw solid #353A40;
 		    border-right: 12vw solid #353A40;
+            border-left: 12vw solid #353A40;
 
             
 		}
+
+
+		
 
 
 
