@@ -1,7 +1,7 @@
 
 .lead {
     color: white;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 2px 2px #000000;
     
 }
 
@@ -9,7 +9,7 @@
 
 .display-4 {
     color: white;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 2px 2px #000000;
     font-size: 10vw;
     
     
@@ -48,6 +48,11 @@
 }
 
 .jumbotron {
+    background-image: url(../bilder/chri.JPG);
+    background-size: cover;
+    
+}
+.jumbotron2 {
     background-image: url(../bilder/chri.JPG);
     background-size: cover;
 }
