@@ -54,6 +54,11 @@
     background-image: url(../bilder/home/chri20.5bel.JPG);
     background-size: cover;
     
+    
+    
+    
+    
+    
 }
 .jumbotron2 {
     background-image: url(../bilder/chri.JPG);
@@ -70,10 +75,8 @@
 
 
 .card {
-    margin-top: 2vw;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    margin-bottom: 2vw;
+    margin-right: 2rem;
+    margin-left: 2rem;
     
     
     
