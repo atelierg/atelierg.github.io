@@ -50,24 +50,64 @@
   </head>
   <body>
       
-      <input id="example-checkbox" type="checkbox">
-<label for="example" id="example">Show</label>
+    
+      
+      
+     <center>
+         
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+      
 
-      
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      
-      
-   <center>  
-<h1 class="hi"> Hi </h1>
-      
-      
-      </center>
+<div class="w3-content w3-section" style="max-width: 40rem">
+<h1 class="mySlides"><br>Hi</h1>
+<h1 class="mySlides"><br>we</h1>
+<h1 class="mySlides"><br>are</h1>
+    
+    
+ 
+    
+    
+<h1 class="mySlides"> weird<br>flex<br>clothing </h1> 
+<h1 class="mySlides"> weird<br>flex<br>clothing </h1> 
+<h1 class="mySlides"> weird<br>flex<br>clothing </h1> 
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+<h1 class="mySlides">weird<br>flex<br>clothing<br><a href="shop.html" class="btn btn-primary" style="font-size: 1.5rem">shop now</a></h1>
+    
+    
+</div>
+
+         
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+</center> 
       
       
   </body>
