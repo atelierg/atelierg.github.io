@@ -132,3 +132,24 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 750%;
 }
+
+
+
+.card {
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    
+    
+    
+}
+
+.card-title {
+    font-size: 1.5rem;
+    
+    
+}
+
+
+
