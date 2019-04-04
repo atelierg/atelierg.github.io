@@ -183,3 +183,14 @@ section .section-title {
 .heightstry {
     height: 1vh;
 }
+
+.titelpa {
+    
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: calc(2.5vw + 8.5vh + 2vmin);
+}
+
+.untertitelpa {
+    color: blue;
+    text-decoration: underline;
+}
