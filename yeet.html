@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="de" xml:lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+        <base href="https://www.sek-sandgruben.ch/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+
+  
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/reset-cachekey-7c8d766a307d129d001beb353e49908c.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-198c1c86477019da754a833581882439.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/controlpanel-cachekey-77d6ed1468462d4df77c9ca0f5779c22.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourcetinymce.stylesheetstinymce-cachekey-89ac65fd7eef8cecdf7cb86c9f41130f.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-286e8b9db75dffbc125b62a78e3ca642.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.mobilenavigationnavigation-cachekey-2c5e92d4b8dcf580486d73356da88d12.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/themeplonetheme.teamraumcssreset-cachekey-7a26fcd0fcf1096d90cad9e796ee6e65.css" />
+        <!--[if IE]>    
+    
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/themeplonetheme.teamraumcssiefixes-cachekey-36b60e3056e50122b63ac56e6e2ff414.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/themeplonetheme.teamraumcolorpickercsscolorpicker-cachekey-b0ddfe0df15c20c7e81884f3fa67d4be.css" />
+    <style type="text/css" media="screen">@import url(https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.tabbedview-resourcestabbedview-cachekey-30591746da6db47f4a0c7801f48712c9.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.colorbox.resourcescolorbox-cachekey-7dbce267fe9f4b8c1dde2c967486f3e6.css" />
+    <style type="text/css" media="screen">@import url(https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourcesimplelayout.ui.dragndrop-resourcessl-dnd-style-cachekey-584446f2ad1d9c2d44107ca73f3d22d9.css);</style>
+    <style type="text/css" media="screen">@import url(https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/fullcalendar-cachekey-376910d73c039f06b177a3a0ffdcae8d.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.sliderslick-cachekey-43acf0d04c1e92043e39032dba04f715.css" />
+    <style type="text/css" media="screen">@import url(https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourcecaptchacontactinfo-cachekey-67cacd910a23f363068c621818e0502c.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.referencewidgetrefwidget-cachekey-6ab04b982200d171d2023db44eb9e355.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/portal_css/Sunburst%20Theme/resourceftw.keywordwidgetselect2distcssselect2.min-cachekey-2557124ad613e8a5eaed006517f9ae95.css" />
+
+  
+  
+    <script type="text/javascript">
+/* - ftw.raven-config.js - */
+// https://www.sek-sandgruben.ch/portal_javascripts/ftw.raven-config.js?original=1
+var raven_config={"dsn":"https://6ef8ddd5a53a40c1833d81e25373d8bf@sentry.4teamwork.ch/54","options":{"release":"be14831c50db9f8c4bdb6db9cab6df2f1b3ae3d7","serverName":"plone4.edubs.ch","tags":{"error_log_id":"1554439086.850.0187103486214"}},"user_context":{"authentication":"anonymous","ip_address":"10.250.183.124"}};
+</script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/ftw.raven-cachekey-d7f65543d0ced7bf08faf54376f5248a.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourcedatetimepickerjsdatetimepicker-2.4.5jquery.datetimepicker-cachekey-fbf7df57cc269e186d1ffee09c57f129.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourceftw.mobilenavigationnavigation-cachekey-12c18450234311df79654b42b1387e4e.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourcesimplelayout.ui.dragndrop-resourcessl-dnd-reorder-cachekey-e3e0286f9a1438358a5af3908af9f0a3.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/OpenLayers-cachekey-bce7e5c3840bdd348e2cd3ebfefa381d.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.recaptcharecaptcha_ajax-cachekey-cca5a90bae271ed96a36b8a2ba6d5db2.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourceftw.simplelayoutvideoblock-cachekey-97f2c0a9b4422e64840f7cbb94fb7b16.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourceftw.sliderblocksliderblock-cachekey-19d92eb0b3522a0346ad7a3e80cdaa09.js"></script>
+    <script type="text/javascript" src="https://www.sek-sandgruben.ch/portal_javascripts/Sunburst%20Theme/resourceftw.simplelayout.mapblock.resourcesmapblock-cachekey-a2f04d71c78d1a08db98451a0f7570a4.js"></script>
+
+
+<title>Sekundarschule Sandgruben</title>
+        
+    <link rel="canonical" href="https://www.sek-sandgruben.ch" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.sek-sandgruben.ch/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.sek-sandgruben.ch/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['de'],
+                {dateFormat: 'dd.mm.yy'}));
+            }
+        });
+        </script>
+
+
+<meta property="og:title" content="Sekundarschule Sandgruben" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.sek-sandgruben.ch" />
+<meta property="og:image" content="https://www.sek-sandgruben.ch/logo.jpg" />
+
+    <link rel="alternate" href="https://www.sek-sandgruben.ch/RSS" title="Sekundarschule Sandgruben - RSS 1.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.sek-sandgruben.ch/rss.xml" title="Sekundarschule Sandgruben - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.sek-sandgruben.ch/atom.xml" title="Sekundarschule Sandgruben - Atom" type="application/rss+xml" />
+
+
+    <link rel="search" href="https://www.sek-sandgruben.ch/@@search" title="Website durchsuchen" />
+
+
+<link rel="stylesheet" type="text/css" href="https://www.sek-sandgruben.ch/theming.css?cachekey=dad21f10267e77133f1b1aece59c3632" />
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=1" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+  <body class="template-startpage portaltype-plone-site site-platform userrole-anonymous" dir="ltr"><div id="portal-top"></div><div id="container">
+      <div class="contentWrapper">
+        
+        <div id="header-wrapper" class="clearfix">
+          <div id="header" class="fixedWidth">
+            <div id="banner-image" class="cell position-0 width-16"></div>
+            <div class="headerTop row">
+              <div class="cell position-0 width-6 logo-wrapper">
+                <div id="portal-logo">
+    <div id="page-top-bar">
+        <a href="http://www.basel.ch">Startseite Kanton Basel-Stadt</a>
+    </div>
+    <a id="logo" title="Sekundarschule Sandgruben" accesskey="1" href="https://www.sek-sandgruben.ch">
+        <img src="https://www.sek-sandgruben.ch/customlogo" alt="Sekundarschule Sandgruben Logo" />
+        <span id="logo-title">Sekundarschule Sandgruben</span>
+    </a>
+</div>
+              </div>
+              <div class="cell position-6 width-10 controls">
+                <a id="portal-logo-right" title="Sekundarschule Sandgruben" accesskey="2" href="https://www.sek-sandgruben.ch">
+    <img src="https://www.sek-sandgruben.ch/++theme++plonetheme.teamraum/images/logo_teamraum.png" alt="Sekundarschule Sandgruben Logo" />
+</a>
+                <div id="portal-personaltools-wrapper">
+                  <h5 class="hiddenStructure">Benutzerspezifische Werkzeuge</h5>
+
+                  <dl class="actionMenu deactivated" id="portal-personaltools"></dl>
+                </div>
+                <div id="portal-searchbox">
+  <a accesskey="5" class="hiddenStructure" href="https://www.sek-sandgruben.ch/@@search">Suche</a>
+  <form name="searchform" id="searchGadget_form" action="https://www.sek-sandgruben.ch/@@search" class="no-solr">
+
+    <div class="LSBox">
+      <label class="hiddenStructure" for="searchGadget">Website durchsuchen</label>
+
+      <input name="SearchableText" type="text" size="18" title="Website durchsuchen" accesskey="4" class="searchField inputLabel" placeholder="Website durchsuchen" id="searchGadget" /><input class="searchButton" type="submit" value="Suche" />
+
+      <div class="LSResult" id="LSResult" style="display:none;">
+        <div class="searchSection">
+          <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/sekundarschule_sandgruben/platform" />
+          <label for="searchbox_currentfolder_only" style="cursor: pointer">nur im aktuellen Bereich</label>
+        </div>
+        <div class="LSShadow" id="LSShadow">
+        </div>
+      </div>
+    </div>
+      
+      
+      
+      
+      
+                    <br>
+       <br>
+       <br>
+       <br>
+       <br>
+                    <h1>Atelier G isch beeeeste!!!</h1>
+      
+      
+      
+      
+
+  <!-- hidden fields for collective.solr - needed for default facets -->
+  
+
+  </form>
+</div>
+                
+                <div id="portal-notifications"></div>
+                <div id="extranet-controls"></div>
+                <div id="gever-portal-controls"></div>
+                <p class="hiddenStructure">
+                  <a id="portal-logo-right" title="Sekundarschule Sandgruben" accesskey="2" href="https://www.sek-sandgruben.ch">
+    <img src="https://www.sek-sandgruben.ch/++theme++plonetheme.teamraum/images/logo_teamraum.png" alt="Sekundarschule Sandgruben Logo" />
+</a><a accesskey="2" href="https://www.sek-sandgruben.ch/#content">Direkt zum Inhalt</a>
+                  |
+                  <a accesskey="6" href="https://www.sek-sandgruben.ch/#portal-globalnav">Direkt zur Navigation</a>
+                </p>
+              </div>
+
+            </div>
+            <div class="visualClear"></div>
+          </div>
+          <div id="navi-wrapper">
+            <div id="navi" class="fixedWidth">
+              <div class="cell position-0 width-16">
+                <div class="row">
+                  <ul class="mobileButtons">
+    <li>
+      <a href="#" id="toggle_search" title="Suchfeld ausklappen">
+        <span class="hiddenStructure">Suchfeld ausklappen</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.sek-sandgruben.ch/load_children" id="toggle_navigation" title="Navigation ausklappen">
+        <span class="hiddenStructure">Navigation ausklappen</span>
+      </a>
+    </li>
+                      
+                      
+                      
+                      
+                      
+</ul>
+                    
+                    
+                    <h1>Atelier G isch beeeeste!!!</h1>
+                  <ul id="portal-globalnav" class="clearfix"><li id="portaltab-ueber_uns" class="plain"><a href="https://www.sek-sandgruben.ch/ueber_uns" title="Alles zu Schulleitung, Sekretariat, Lehrpersonen, Stundenplänen, Bibliothek, Schulsozialarbeit, Logopädie, Tagesstruktur, Mensa, Hauswartin, Elternmitwirkung und Schulrat. ">Über uns</a></li><li id="portaltab-ausrichtung" class="plain"><a href="https://www.sek-sandgruben.ch/ausrichtung" title="">Ausrichtung</a></li><li id="portaltab-schulleben" class="plain"><a href="https://www.sek-sandgruben.ch/schulleben" title="">Schulleben</a></li><li id="portaltab-service" class="plain"><a href="https://www.sek-sandgruben.ch/service" title="Weitere Informationen über unsere Schule, Formulare, Reglemente etc. zum Runterladen.">Service</a></li><li id="portaltab-spa" class="plain"><a href="https://www.sek-sandgruben.ch/spa" title="">SpA</a></li><li id="portaltab-aktuelles" class="plain"><a href="https://www.sek-sandgruben.ch/aktuelles" title="">Aktuelles</a></li><li id="portaltab-termine" class="plain"><a href="https://www.sek-sandgruben.ch/termine" title="">Termine</a></li></ul>
+                  <div id="navi-search-wrapper">
+                    <div id="navi-searchbox"></div>
+                  </div>
+                  <div class="visualClear"></div>
+                </div>
+              </div>
+            </div>
+            <div class="visualClear"></div>
+
+          </div>
+        </div>
+        <div id="columns-wrapper">
+          <div id="columns" class="clearfix fixedWidth">
+            <div class="row">
+              <div class="cell position-0 width-14" id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Sie sind hier:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://www.sek-sandgruben.ch">Startseite</a>
+        
+                    <h1>Atelier G isch beeeeste!!!</h1>
+        
+    </span>
+
+</div>
+              <div class="cell position-14 width-2" id="document-actions">
+        
+
+            <p class="hiddenStructure">Artikelaktionen</p>
+
+            <ul>
+                  <li id="document-action-print">
+                      <a href="javascript:this.print();" title="">Drucken</a>
+                  </li>
+            </ul>
+        
+
+        
+
+    </div>
+            </div>
+            <div class="row">
+              <div id="column-content" class="cell width-16 position-0">
+                <div>
+                  <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+                  <div id="viewlet-above-content">
+
+</div><div id="content">
+
+                            
+
+                            
+
+                             <div id="viewlet-above-content-title"></div>
+                             <div></div>
+                             <div id="viewlet-below-content-title">
+
+</div>
+
+                             
+                                 
+                                 
+            
+            
+        
+                             
+
+                             <div id="viewlet-above-content-body"></div>
+                             <div id="content-core">
+                                 <div>
+
+    <div><div id="top" data-sl-settings="{&quot;layouts&quot;: [1, 2, 4], &quot;canEdit&quot;: false, &quot;canChangeLayout&quot;: false}" class="sl-simplelayout"><div class="sl-layout"><div data-config="{&quot;layout&quot;: &quot;golden-ratio&quot;}" class="sl-layout-content golden-ratio"><div class="sl-columns"><div class="sl-column sl-col-2"><div data-url="https://www.sek-sandgruben.ch/textblock" data-uid="9150ab3d2e794a82b1adf528110003de" data-type="ftw-simplelayout-textblock" class="sl-block ftw-simplelayout-textblock"><a name="textblock" id="textblock"></a><div class="sl-block-content">
+
+  
+
+  
+    <div class="sl-image sl_textblock_large no-float">
+        <div class="imageContainer">
+            <a href="https://www.sek-sandgruben.ch/textblock/@@images/2a362638-5cbb-4c7f-a009-16d9196b67ff.jpeg" class="colorboxLink" title="">
+                <img src="https://www.sek-sandgruben.ch/textblock/@@images/99c3d0fc-f92e-4300-abd7-2547d68a6773.jpeg" alt="" />
+            </a>
+        </div>
+        <div class="hiddenStructure">Bild Legende:</div>
+        <div class="image-caption"></div>
+    </div>
+  
+  <p></p>
+  
+
+
+</div></div></div><div class="sl-column sl-col-2"><div data-url="https://www.sek-sandgruben.ch/textblock-1" data-uid="f3a9a64adea94f2c87f57c5d298d14f6" data-type="ftw-simplelayout-textblock" class="sl-block ftw-simplelayout-textblock"><a name="textblock-1" id="textblock-1"></a><div class="sl-block-content">
+
+  
+
+  
+  <p>Atelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeesteAtelier G isch beeeste</p>
+  
+
+
+</div></div></div></div></div></div>
+</div>
+</div>
+
+    <div class="visualClear divider"></div>
+
+    <div id="startpage-left"><div id="default" data-sl-settings="{&quot;layouts&quot;: [1, 2, 4], &quot;canEdit&quot;: false, &quot;canChangeLayout&quot;: false}" class="sl-simplelayout"><div class="sl-layout"><div data-config="{}" class="sl-layout-content "><div class="sl-columns"><div class="sl-column sl-col-2"><div data-url="https://www.sek-sandgruben.ch/textblock-2" data-uid="00950549cad54c2f8448851a25fe0f42" data-type="ftw-simplelayout-textblock" class="sl-block ftw-simplelayout-textblock"><a name="textblock-2" id="textblock-2"></a><div class="sl-block-content">
+
+  
+
+  
+    <div class="sl-image sl_textblock_large no-float">
+        <div class="imageContainer">
+            <a href="https://www.sek-sandgruben.ch/textblock-2/@@images/44fe4077-8a37-46aa-88f8-7e0d8e223770.jpeg" class="colorboxLink" title="">
+                <img src="https://www.sek-sandgruben.ch/textblock-2/@@images/663405da-c33d-46fd-995e-f5cec6b2bc90.jpeg" alt="" />
+            </a>
+        </div>
+        <div class="hiddenStructure">Bild Legende:</div>
+        <div class="image-caption"></div>
+    </div>
+  
+  <p><a title="" href="https://www.sek-sandgruben.ch/ausrichtung" class="internal-link" target="_self"><span class="internal-link"><b></b></span></a></p>
+<p><a title="" href="https://www.sek-sandgruben.ch/ausrichtung" class="internal-link" target="_self"><b><b>Atelier G isch beeeste</b></b></a></p>
+<p class=" ">Selbstgesteuert? Alters- und niveaudurchmischt? Ateliers  statt Klassenzimmer? Das ist Unterricht an der Sekundarschule Sandgruben.</p>
+  
+
+
+</div></div></div><div class="sl-column sl-col-2"><div data-url="https://www.sek-sandgruben.ch/textblock-3" data-uid="190ef0a1a32149a890e675fe243cb8bf" data-type="ftw-simplelayout-textblock" class="sl-block ftw-simplelayout-textblock"><a name="textblock-3" id="textblock-3"></a><div class="sl-block-content">
+
+  
+
+  
+    <div class="sl-image sl_textblock_large no-float">
+        <div class="imageContainer">
+            <a href="https://www.sek-sandgruben.ch/textblock-3/@@images/06a4646c-ae99-4264-bde0-3da8a4e7f259.jpeg" class="colorboxLink" title="">
+                <img src="https://www.sek-sandgruben.ch/textblock-3/@@images/522ab992-53c8-4bf1-bfe4-f49293b69bc2.jpeg" alt="" />
+            </a>
+        </div>
+        <div class="hiddenStructure">Bild Legende:</div>
+        <div class="image-caption"></div>
+    </div>
+  
+  <p><a title="" href="https://www.sek-sandgruben.ch/ueber_uns/mensa" class="internal-link" target="_self"><b></b></a></p>
+<p><span class="internal-link"><b><a title="" href="https://www.sek-sandgruben.ch/ueber_uns/mittagsverpflegung" class="internal-link" target="_self">Atelier G isch beeeste </a>/ <a title="" href="https://www.sek-sandgruben.ch/ueber_uns/mensa" class="internal-link" target="_self">Atelier G isch beeeste</a></b></span></p>
+<p>Betreut? Kreativ? Sportlich? Vepflegt? Das und noch viel mehr bieten die Tagesstrukturen unserer Schule.</p>
+  
+
+
+</div></div></div></div></div></div><div class="sl-layout"><div data-config="{}" class="sl-layout-content "><div class="sl-columns"><div class="sl-column sl-col-2"><div data-url="https://www.sek-sandgruben.ch/textblock-4" data-uid="39a5c21de7f444548a83eb8ea9999fda" data-type="ftw-simplelayout-textblock" class="sl-block ftw-simplelayout-textblock"><a name="textblock-4" id="textblock-4"></a><div class="sl-block-content">
+
+  
+
+  
+    <div class="sl-image sl_textblock_large no-float">
+        <div class="imageContainer">
+            <a href="https://www.sek-sandgruben.ch/textblock-4/@@images/f45301a7-c111-4a6d-a9ef-b51bb9c2e7df.jpeg" class="colorboxLink" title="">
+                <img src="https://www.sek-sandgruben.ch/textblock-4/@@images/2c9c5bb2-b4ae-4874-86f2-01a5bd1e5141.jpeg" alt="" />
+            </a>
+        </div>
+        <div class="hiddenStructure">Bild Legende:</div>
+        <div class="image-caption"></div>
+    </div>
+  
+  <p></p>
+<p><strong><a title="" href="https://www.sek-sandgruben.ch/spa" class="internal-link" target="_self">Atelier G isch beeeste</a></strong></p>
+<p>Individuell? Begleitet? Perspektiven eröffnend? Das bieten die Spezialangebote der Sek I für Basel Stadt.  </p>
+  
+
+
+</div></div></div><div class="sl-column sl-col-2"></div></div></div></div>
+</div>
+</div>
+    <div id="startpage-right"><div id="right" data-sl-settings="{&quot;layouts&quot;: [1, 2, 4], &quot;canEdit&quot;: false, &quot;canChangeLayout&quot;: false}" class="sl-simplelayout"><div class="sl-layout"><div data-config="{}" class="sl-layout-content "><div class="sl-columns"><div class="sl-column sl-col-1"><div data-url="https://www.sek-sandgruben.ch/news-listing-block" data-uid="5375f2d925ce4575b3b26e8115983ad8" data-type="ftw-news-newslistingblock" class="sl-block ftw-news-newslistingblock"><a name="news-listing-block" id="news-listing-block"></a><div class="sl-block-content">
+
+    <h2></h2>
+
+    
+
+        
+
+        <ul class="news-row">
+            <li>
+                <a class="news-item" href="https://www.sek-sandgruben.ch/aktuelles/anmeldung-pflichtwahlfaecher-2-3-sek">
+                    
+                    <div class="body">
+                        <span class="byline">
+                            <span>21.02.2019</span>
+                            
+                        </span>
+                        <h3 class="title">Anmeldung Pflichtwahlfächer 2./3. Sek</h3>
+                        <span class="description">Am 29.01.2019 und am 05.02.2019 konnten sich die ...</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="news-item" href="https://www.sek-sandgruben.ch/aktuelles/erste-plaetze-am-schulsporttag">
+                    
+                    <div class="body">
+                        <span class="byline">
+                            <span>20.02.2019</span>
+                            
+                        </span>
+                        <h3 class="title">Erste Plätze am Schulsporttag!</h3>
+                        <span class="description">Am 20.02.2019 fand der Basler Schulsporttag ...</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="news-item" href="https://www.sek-sandgruben.ch/aktuelles/weihnachtssingen">
+                    
+                    <div class="body">
+                        <span class="byline">
+                            <span>21.12.2018</span>
+                            
+                        </span>
+                        <h3 class="title">Weihnachtssingen</h3>
+                        <span class="description">Am Mittwoch, 19. Dezember fand ein gemeinsames ...</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="news-item" href="https://www.sek-sandgruben.ch/aktuelles/bundesratswahlen">
+                    
+                    <div class="body">
+                        <span class="byline">
+                            <span>11.12.2018</span>
+                            
+                        </span>
+                        <h3 class="title">Bundesratswahlen</h3>
+                        <span class="description">Am Mittwoch, 5. Dezember 2018 fanden Ersatzwahlen ...</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="news-item" href="https://www.sek-sandgruben.ch/aktuelles/lesung-mit-hans-juergen-feldhaus-autor-von-fuenf-auf-crashkurs">
+                    
+                    <div class="body">
+                        <span class="byline">
+                            <span>19.11.2018</span>
+                            
+                        </span>
+                        <h3 class="title">Lesung mit Hans-Jürgen Feldhaus, Autor von „Fünf auf Crashkurs“</h3>
+                        <span class="description">55 Zweit- und Drittklässler empfingen am 14. ...</span>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+
+        
+            
+        
+
+    
+
+
+</div></div></div></div></div></div>
+</div>
+</div>
+
+</div>
+                             </div>
+                             <div id="viewlet-below-content-body">
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    
+
+</div>
+
+                            
+                        </div><div id="viewlet-below-content">
+
+
+
+</div>
+                </div>
+                <div class="bookReaderLastElement"></div>
+              </div>
+              <div id="column-navigation" class="cell position-0 width-4"></div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="footerPush"></div>
+      </div>
+      <div id="footer-wrapper">
+        <div id="footer" class="fixedWidth"><div id="egov-footer" class="row">
+
+  <div id="footer-row-1" class="row">
+
+    <dl class="portlet">
+      <dd class="portletItem">
+        <a href="https://www.sek-sandgruben.ch/login">Login</a>
+        <a target="_blank" href="https://www.edubs.ch/">eduBS Bildungsserver</a>
+        <a target="_blank" href="https://teamwork.edubs.ch/">eduBS Teamwork</a>
+        <a target="_blank" href="https://ilias.edubs.ch/login.php?target=&amp;soap_pw=&amp;ext_uid=&amp;cookies=nocookies&amp;client_id=edubs&amp;lang=de">Ilias</a>
+        <a href="https://www.sek-sandgruben.ch/sitemap">Sitemap</a>
+        <a href="https://www.sek-sandgruben.ch/impressum">Kontakt / Impressum</a>
+      </dd>
+    </dl>
+
+  </div>
+</div></div>
+      </div>
+    </div></body>
+</html>
